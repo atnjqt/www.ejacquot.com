@@ -2,7 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 font-sans">
+
+    <div className="flex flex-col flex-1 items-center justify-center bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 font-sans">
       {/* Gradient overlay orbs for visual depth */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse" />
@@ -27,7 +28,9 @@ export default function Home() {
               Etienne Philippe Jacquot
             </h1>
             <p className="text-lg text-zinc-300 leading-relaxed">
-              Systems Administrator &amp; DevOps Engineer at the University of Pennsylvania
+              Systems Administrator &amp; DevOps Engineer at the{" "}
+              <a href="https://www.upenn.edu/" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">University of Pennsylvania</a>&apos;s{" "}
+              <a href="https://www.asc.upenn.edu" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">Annenberg School for Communication</a>
             </p>
           </div>
         </section>
@@ -39,7 +42,9 @@ export default function Home() {
               Education
             </h2>
             <p className="text-zinc-200">
-              Bachelor of Arts (BA) in Philosophy &middot; Master in Law (ML)
+              Bachelor of Arts (BA) in{" "}
+              <a href="https://web.sas.upenn.edu/philosophyclassof2020/etienne-jacquot/" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">Philosophy</a>{" "}
+              &middot; Master in Law (ML)
             </p>
           </div>
 
