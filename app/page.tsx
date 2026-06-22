@@ -2,7 +2,6 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-
     <div className="flex flex-col flex-1 items-center justify-center bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 font-sans">
       {/* Gradient overlay orbs for visual depth */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
