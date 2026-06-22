@@ -40,11 +40,16 @@ export default function Home() {
             <h2 className="text-sm font-semibold uppercase tracking-wide text-blue-300">
               Education
             </h2>
-            <p className="text-zinc-200">
-              Bachelor of Arts (BA) in{" "}
-              <a href="https://web.sas.upenn.edu/philosophyclassof2020/etienne-jacquot/" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">Philosophy</a>{" "}
-              &middot; Master in Law (ML)
-            </p>
+            <ul className="list-disc list-inside text-zinc-200 flex flex-col gap-1">
+              <li>
+                Bachelor of Arts (BA) in{" "}
+                <a href="https://web.sas.upenn.edu/philosophyclassof2020/etienne-jacquot/" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">Philosophy</a>
+              </li>
+              <li>
+                Masters (ML) in {" "}
+                <a href="https://www.law.upenn.edu/live/news/18529-penn-carey-law-commencement-2026" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">Law</a>
+              </li> 
+            </ul>
           </div>
 
           <div className="flex flex-col gap-1">

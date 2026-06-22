@@ -19,7 +19,7 @@ export default function Header() {
       <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
         {/* Logo / Site name */}
         <Link href="/" className="text-lg font-semibold text-white hover:text-blue-300 transition-colors">
-          Welcome!
+          EJACQUOT
         </Link>
 
         {/* Desktop nav */}
