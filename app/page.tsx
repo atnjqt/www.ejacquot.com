@@ -13,7 +13,7 @@ export default function Home() {
       <main className="relative z-10 flex flex-1 w-full max-w-3xl flex-col gap-12 py-24 px-8 sm:px-16">
         {/* Profile + Headline */}
         <section className="flex flex-col sm:flex-row items-center sm:items-start gap-6">
-          <div className="relative w-28 h-28 sm:w-32 sm:h-32 rounded-full overflow-hidden ring-4 ring-white/20 shadow-2xl flex-shrink-0">
+          <div className="relative w-40 h-40 sm:w-48 sm:h-48 rounded-full overflow-hidden ring-4 ring-white/20 shadow-2xl flex-shrink-0">
             <Image
               src="https://img.saysdont.com/images/etienne_wcf.jpeg"
               alt="Etienne Philippe Jacquot"
@@ -28,8 +28,8 @@ export default function Home() {
             </h1>
             <p className="text-lg text-zinc-300 leading-relaxed">
               Systems Administrator &amp; DevOps Engineer at the{" "}
-              <a href="https://www.upenn.edu/" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">University of Pennsylvania</a>&apos;s{" "}
               <a href="https://www.asc.upenn.edu" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">Annenberg School for Communication</a>
+              , at the <a href="https://www.upenn.edu/" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">University of Pennsylvania</a>{" "}
             </p>
           </div>
         </section>
