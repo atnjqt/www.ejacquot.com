@@ -27,9 +27,9 @@ export default function Home() {
               Etienne Philippe Jacquot
             </h1>
             <p className="text-lg text-zinc-300 leading-relaxed">
-              Systems Administrator, DevOps Engineer, & AI Solutions Architect at the{" "}
+              SysAdmin, DevOps, & AI Solutions Engineer at the{" "}
               <a href="https://www.asc.upenn.edu" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">Annenberg School for Communication</a>
-              , at the <a href="https://www.upenn.edu/" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">University of Pennsylvania</a>{" "}
+              , <a href="https://www.upenn.edu/" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">University of Pennsylvania</a>{" "}
             </p>
           </div>
         </section>
@@ -42,15 +42,15 @@ export default function Home() {
             </h2>
             <ul className="list-disc list-inside text-zinc-200 flex flex-col gap-1">
               <li>
-                Bachelor in {" "}
-                <a href="https://web.sas.upenn.edu/philosophyclassof2020/etienne-jacquot/" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">Philosophy</a>{" "}
-                (BA) from UPenn College of Arts & Sciences
-              </li>
-              <li>
                 Master in {" "}
                 <a href="https://www.law.upenn.edu/live/news/18529-penn-carey-law-commencement-2026" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">Law</a>{" "}
                 (ML) from Penn Carey Law
               </li> 
+              <li>
+                Bachelor in {" "}
+                <a href="https://web.sas.upenn.edu/philosophyclassof2020/etienne-jacquot/" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">Philosophy</a>{" "}
+                (BA) from UPenn College of Arts & Sciences
+              </li>
             </ul>
           </div>
         </section>
