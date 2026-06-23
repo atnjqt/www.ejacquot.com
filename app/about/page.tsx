@@ -29,21 +29,26 @@ export default function AboutPage() {
         {/* Bio */}
         <section className="flex flex-col gap-6 bg-white/5 backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-white/10 text-zinc-200 leading-relaxed text-base sm:text-lg">
           <p>
-            I&apos;m Etienne Jacquot, a 30-year-old systems administrator and DevOps engineer born and raised in Philadelphia. I attended{" "}
+            My name is <strong>Etienne Jacquot</strong>, a 30-year-old born and raised in Philadelphia, PA, with more than a decade of experience working at the Univeristy of Pennsylvania as a Systems Administrator, DevOps Engineer, & AI & OSS Adoption Specialist supporting students, faculty, and staff with data science pipelines, web development deployments, and mission-critical administrative systems.
+          </p>
+          <p> In my academic career, I attended{" "}
             <a href="https://centralhigh.net/" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">Central High School</a>{" "}
-            (Class #273) before heading to the{" "}
-            <a href="https://www.upenn.edu/" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">University of Pennsylvania</a>, where I earned a Bachelor of Arts in{" "}
-            <a href="https://web.sas.upenn.edu/philosophyclassof2020/etienne-jacquot/" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">Philosophy</a>{" "}
-            and a graduate Master in Law degree.
+            (#273) before heading to the{" "}
+            <a href="https://www.upenn.edu/" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">University of Pennsylvania</a>, where in 2020 I earned a Bachelor of Arts (BA) in{" "}
+            <a href="https://web.sas.upenn.edu/philosophyclassof2020/etienne-jacquot/" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">Philosophy of Science</a>{" "}
+            with a minor in Cognitive Sciences, focusing on theory of mind, metaphysics, functionalism, post-humanism, and non-reductive physicalism. Most recently in 2026, I completed my graduate studies with a Master in Law (ML) degree from UPenn's Penn Carey Law school, with a focus on AI & Tech Ethics, Cybercrime law, Intellectual Property law, and Privacy law.
           </p>
 
           <p>
-            I&apos;ve spent the last 10 years working at UPenn as a systems admin and DevOps engineer at the{" "}
-            <a href="https://www.asc.upenn.edu" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">Annenberg School for Communication</a>, the university&apos;s graduate school for communication. My work involves supporting data science projects and web development initiatives across the school.
+            In my professional career, I&apos;ve spent the last 10 years working at UPenn as a Systems Administrator and DevOps engineer at the{" "}
+            <a href="https://www.asc.upenn.edu" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">Annenberg School for Communication</a>.
+            My work involves supporting data science grant-funded research and web development initiatives across the schools departments, labs and centers, with a proud achivement including maintaining & securing flagship websites including the nationally syndicated <a href="https://www.factcheck.org" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">FactCheck.org</a>.
+            Most recently, my work at UPenn has evolved to champion ethical and effective AI adoption for researchers and administrators, maintaining a shared Open-WebUI tenant behind enterprise SSO authentication, to provide metered and secure access to LLMs (third party public cloud, enterprise private cloud, on-prem private hardware).
           </p>
 
           <p>
-            In my free time, I enjoy running in the summer, snowboarding in the winter, traveling the world, music and vinyl DJing, and all things open source technology.
+
+            In my free time, I enjoy running in the summer, snowboarding in the winter, traveling the world to meet new people, digging for vinyl records and DJ'ing b2b (see <a href="https://img.saysdont.com/" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">saysdont.com</a>), and all things open source technology!
           </p>
         </section>
       </main>

@@ -84,6 +84,12 @@ export default function Home() {
               <li>
                 Frameworks: Flask / FastAPI, React / Next.js, Tailwind CSS, Symfony (Drupal)
               </li>
+              <li>
+                Softwares: Git, Docker, Terraform, Jupyterhub, Open-WebUI
+              </li>
+              <li>
+                Platforms: AWS Bedrock, Beanstalk, Lambda, EC2; Azure Functions; GCP Pantheon; Nutanix Acropolys Hypervisor; VMware vSphere, Horizon
+              </li>
             </ul>
           </div>
         </section>
