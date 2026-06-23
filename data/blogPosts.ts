@@ -15,33 +15,13 @@ export interface BlogPostMeta {
  */
 export const blogPosts: BlogPostMeta[] = [
   {
-    slug: "un-ospo-leveraging-open-source",
-    title: "UN OSPO 2026: Leveraging Open Source for Global Good",
-    excerpt: "Exploring how open source principles are transforming international cooperation and digital public infrastructure.",
+    slug: "un-open-source-week-2026",
+    title: "UN Open Source Week 2026: Maintainers, Narwhals, and the Future of AI",
+    excerpt: "Reflections from the maintain-a-thon and AI keynotes — on imposter syndrome, capacity building, data sovereignty, and why narwhals beat unicorns.",
     date: "2026-06-22",
     author: "Etienne Jacquot",
     category: "Conference",
     year: "2026",
     month: "06",
-  },
-  {
-    slug: "building-sustainable-open-source-ecosystems",
-    title: "Building Sustainable Open Source Ecosystems",
-    excerpt: "Strategies for maintaining long-term open source projects in the public sector context.",
-    date: "2026-06-15",
-    author: "Etienne Jacquot",
-    category: "Open Source",
-    year: "2026",
-    month: "06",
-  },
-  {
-    slug: "ai-and-open-source-partnership-for-good",
-    title: "AI and Open Source: A Partnership for Good",
-    excerpt: "How open source principles can guide responsible artificial intelligence development.",
-    date: "2026-06-10",
-    author: "Etienne Jacquot",
-    category: "AI",
-    year: "2026",
-    month: "06",
-  },
+  }
 ];

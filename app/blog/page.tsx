@@ -8,7 +8,7 @@ export default function BlogPage() {
         <header className="flex flex-col gap-2">
           <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-white">Blog</h1>
           <p className="text-zinc-400">
-            Insights on open source, digital public infrastructure, and technology for global good.
+            Insights on technology, open source, academia & research, life stuff, and more.
           </p>
         </header>
 

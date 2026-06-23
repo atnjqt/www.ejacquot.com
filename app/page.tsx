@@ -26,6 +26,9 @@ export default function Home() {
             <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-white">
               Etienne Philippe Jacquot
             </h1>
+            <p className="text-sm text-zinc-400">
+              Philadelphia, Pennsylvania, USA
+            </p>
             <p className="text-lg text-zinc-300 leading-relaxed">
               SysAdmin, DevOps, & AI Solutions Engineer at the{" "}
               <a href="https://www.asc.upenn.edu" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">Annenberg School for Communication</a>
@@ -50,6 +53,36 @@ export default function Home() {
                 Bachelor in {" "}
                 <a href="https://web.sas.upenn.edu/philosophyclassof2020/etienne-jacquot/" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">Philosophy</a>{" "}
                 (BA) from UPenn College of Arts & Sciences
+              </li>
+            </ul>
+          </div>
+          <div className="flex flex-col gap-1">
+            <h2 className="text-sm font-semibold uppercase tracking-wide text-blue-300">
+              Spoken Languages
+            </h2>
+            <ul className="list-disc list-inside text-zinc-200 flex flex-col gap-1">
+              <li>
+                English (Fluent)
+              </li> 
+              <li>
+                Spanish (Advanced)
+              </li>
+              <li>
+                French (Conversational)
+              </li>
+            </ul>
+          </div>
+
+          <div className="flex flex-col gap-1">
+            <h2 className="text-sm font-semibold uppercase tracking-wide text-blue-300">
+              Coding Languages
+            </h2>
+            <ul className="list-disc list-inside text-zinc-200 flex flex-col gap-1">
+              <li>
+                Scripting: Python, JavaScript, PHP, Bash, Powershell, HTML & CSS
+              </li>
+              <li>
+                Frameworks: Flask / FastAPI, React / Next.js, Tailwind CSS, Symfony (Drupal)
               </li>
             </ul>
           </div>
