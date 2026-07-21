@@ -8,19 +8,20 @@ export default function Header() {
 
   const navLinks = [
     { href: "/", label: "Home" },
-    { href: "/blog", label: "Blog" },
+    // { href: "/blog", label: "Blog" }, // hidden — not live yet
     { href: "/about", label: "About" },
-    { href: "/projects", label: "Projects" },
-    { href: "/travel", label: "Travel" },
+    { href: "/art", label: "Art" },
+    // { href: "/projects", label: "Projects" }, // hidden — not filled out yet
+    // { href: "/travel", label: "Travel" }, // hidden — not filled out yet
     { href: "/contact", label: "Contact" }
   ];
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-white/10 bg-slate-900/80 backdrop-blur-md">
+    <header className="sticky top-0 z-50 w-full border-b border-white/10 bg-slate-900/80 backdrop-blur-md" >
       <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
         {/* Logo / Site name */}
-        <Link href="/" className="text-lg font-semibold text-white hover:text-blue-300 transition-colors">
-          EJACQUOT
+        <Link href="/" className="text-lg font-semibold text-white hover:text-blue-300 transition-colors tracking-widest">
+          ETIENNE P. JACQUOT
         </Link>
 
         {/* Desktop nav */}
