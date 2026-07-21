@@ -31,7 +31,7 @@ export default function AboutPage() {
           <p>
             My name is <strong>Etienne Jacquot</strong>, a 30-year-old born and raised in Philadelphia, PA.</p>
           <p> In my academic career, I attended{" "}
-            <a href="https://centralhigh.net/" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">Central High School</a>{" "}
+            <a href="https://centralhs.philasd.org/" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">Central High School</a>{" "}
             (#273) before enrolling in <a href="https://drexel.edu/" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">Drexel University</a>, and transferred after one year to the{" "}
             <a href="https://www.upenn.edu/" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">University of Pennsylvania</a>. In May 2020, I earned a Bachelor of Arts (BA) in{" "}
             <a href="https://web.sas.upenn.edu/philosophyclassof2020/etienne-jacquot/" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">Philosophy of Science</a>{" "}
@@ -40,7 +40,8 @@ export default function AboutPage() {
           <p>
             In my professional career, I&apos;ve spent the last 10 years working at UPenn as an IT Systems Administrator and DevOps engineer at the{" "}
             <a href="https://www.asc.upenn.edu" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">Annenberg School for Communication</a>.
-            My work involves supporting data science, grant-funded research, and web development initiatives across the school's departments, labs, and centers. 
+            My work involves supporting data science, grant-funded research, and web development initiatives across the school's departments, labs, and centers.
+            Notably, my work at Annenberg UPenn supports the nonprofit & nonpartisan nationally syndicated news site <a href="https://www.FactCheck.org" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">FactCheck.org</a> in their mission to counter misinformation and promote accurate reporting.
           </p>
 
           <p>
