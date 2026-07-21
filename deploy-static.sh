@@ -2,13 +2,13 @@
 # Etienne Jacquot
 # 06/22/2026
 
-export NAMED_PROFILE=...
-export SITE_NAME=...
-export CLOUDFRONT_DISTRIBUTION_ID=...
+export NAMED_PROFILE=atn-developer
+export SITE_NAME=www.ejacquot.com
+export CLOUDFRONT_DISTRIBUTION_ID=E3S1U2PUIOZIRW
 
 echo "Building static site for $SITE_NAME using profile $NAMED_PROFILE"
 # Build static site
-cd app && npx next build
+npx next build
 
 echo "Syncing static site to S3 bucket s3://$SITE_NAME/"
 # Sync everything first
